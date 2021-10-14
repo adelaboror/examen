@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: lightcoral;
+    font-family: 'calibri';
+}
+
+header{
+    background: rgb(95, 160, 138);
+    width: 100%;
+    clear: both;
+    content:'' ;
+    display: table;
+    margin: 0 auto;
+}
+
+.menu{
+    width: 900;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin: 15px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+
+
+}
+
+nav{
+    float: right;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(155, 240, 10);
+    font-weight: bold;
+}
+
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 100%;
+    background: rgb(40, 18, 185);
+    height: 5px;
+    top: 0;
+    position: absolute;
+}
